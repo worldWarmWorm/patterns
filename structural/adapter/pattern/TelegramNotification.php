@@ -1,8 +1,12 @@
 <?php
 
-final class TelegramNotification implements Notifiable
+namespace structural\adapter\pattern;
+
+use Notifiable;
+
+final readonly class TelegramNotification implements Notifiable
 {
-    public function __construct(public readonly string $account)
+    public function __construct(public string $account)
     {
     }
 

@@ -1,8 +1,12 @@
 <?php
 
-final class EmailNotification implements Notifiable
+namespace structural\adapter\pattern;
+
+use Notifiable;
+
+final readonly class EmailNotification implements Notifiable
 {
-    public function __construct(public readonly string $email)
+    public function __construct(public string $email)
     {
     }
 

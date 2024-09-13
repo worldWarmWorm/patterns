@@ -1,5 +1,7 @@
 <?php
 
+use structural\adapter\pattern\{EmailNotification, TelegramNotification};
+
 function sendMessage(Notifiable $notifiable): void
 {
     $notifiable->notification('Party at Saturday night', 'You just invited at Saturday night party');
