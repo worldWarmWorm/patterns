@@ -1,6 +1,10 @@
 <?php
 
-use structural\adapter\pattern\{EmailNotification, TelegramNotification};
+namespace DesignPatterns\Structural\adapter;
+
+use DesignPatterns\Structural\adapter\pattern\EmailNotification;
+use DesignPatterns\Structural\adapter\pattern\Notifiable;
+use DesignPatterns\Structural\adapter\pattern\TelegramNotification;
 
 function sendMessage(Notifiable $notifiable): void
 {

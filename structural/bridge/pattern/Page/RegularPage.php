@@ -1,8 +1,8 @@
 <?php
 
-namespace structural\bridge\pattern\Pages;
+namespace DesignPatterns\Structural\bridge\pattern\Page;
 
-use structural\bridge\pattern\Renderer;
+use DesignPatterns\Structural\bridge\pattern\Renderer\Renderer;
 
 final class RegularPage extends Page
 {
@@ -23,7 +23,7 @@ final class RegularPage extends Page
         return $this->renderer->renderBlocks([
             $this->renderer->header(),
             $this->renderer->title($this->title),
-            $this->renderer->content($this->content)(),
+            $this->renderer->content($this->content),
             $this->renderer->footer(),
         ]);
     }

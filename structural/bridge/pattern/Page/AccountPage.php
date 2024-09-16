@@ -1,9 +1,10 @@
 <?php
 
-namespace structural\bridge\pattern\Pages;
+namespace DesignPatterns\Structural\bridge\pattern\Page;
 
-use structural\bridge\pattern\Entity\Account;
-use structural\bridge\pattern\Renderer;
+
+use DesignPatterns\Structural\bridge\pattern\Renderer\Entity\Account;
+use DesignPatterns\Structural\bridge\pattern\Renderer\Renderer;
 
 final class AccountPage extends Page
 {

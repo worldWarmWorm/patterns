@@ -1,8 +1,6 @@
 <?php
 
-namespace structural\adapter\pattern;
-
-use Notifiable;
+namespace DesignPatterns\Structural\adapter\pattern;
 
 final readonly class EmailNotification implements Notifiable
 {
@@ -12,6 +10,11 @@ final readonly class EmailNotification implements Notifiable
 
     public function notification(string $theme, string $content): void
     {
-        print_r("You have unread message!\n[Theme]: $theme\n[Content]: Dear $this->email!\n$content");
+        print_r("
+            <h1>You have unread message!</h1>
+            <p><bold>[Theme]</bold>: $theme</p>
+            <p><bold>[Content]</bold>: Dear $this->email!</p>
+            <p>$content</p>
+        ");
     }
 }

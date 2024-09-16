@@ -1,6 +1,6 @@
 <?php
 
-namespace structural\bridge\pattern\Entity;
+namespace DesignPatterns\Structural\bridge\pattern\Renderer\Entity;
 
 final readonly class Account
 {

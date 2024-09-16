@@ -1,6 +1,6 @@
 <?php
 
-namespace structural\bridge\pattern;
+namespace DesignPatterns\Structural\bridge\pattern\Renderer;
 
 final class HtmlRenderer implements Renderer
 {
