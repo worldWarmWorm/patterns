@@ -1,0 +1,18 @@
+{
+    "name": "valery/design-patterns",
+    "description": "Code examples of design pattern in PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\Structural\\": "structural/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valery",
+            "email": "st.valeriq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
