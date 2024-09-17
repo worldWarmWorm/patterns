@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Structural\decorator\pattern\formatter;
+namespace DesignPatterns\Structural\decorator\pattern\format;
 
-class DangerousHtmlTagsFilter extends TextFormat
+final class StripTags extends Text
 {
     private array $dangerousTagPatterns = [
         "|<script.*?>([\s\S]*)?</script>|i",
@@ -12,9 +12,9 @@ class DangerousHtmlTagsFilter extends TextFormat
         "onclick", "onkeypress",
     ];
 
-    public function formatText(string $text): string
+    public function format(string $text): string
     {
-        $text = parent::formatText($text);
+        $text = parent::format($text);
 
         foreach ($this->dangerousTagPatterns as $pattern) {
             $text = preg_replace($pattern, '', $text);
