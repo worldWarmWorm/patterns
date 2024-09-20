@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Structural\composite\pattern;
+namespace DesignPatterns\Structural\composite\pattern\Form;
 
 abstract class FormElement
 {

@@ -2,7 +2,9 @@
 
 namespace DesignPatterns\Structural\composite\pattern;
 
-class FieldComposite extends FormElement
+use DesignPatterns\Structural\composite\pattern\Form\FormElement;
+
+class Composite extends FormElement
 {
     /**
      * @var array<FormElement>

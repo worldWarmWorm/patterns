@@ -1,9 +1,9 @@
 <?php
 
-use DesignPatterns\Structural\composite\pattern\Fieldset;
-use DesignPatterns\Structural\composite\pattern\Form;
-use DesignPatterns\Structural\composite\pattern\FormElement;
-use DesignPatterns\Structural\composite\pattern\Input;
+use DesignPatterns\Structural\composite\pattern\Form\Fieldset;
+use DesignPatterns\Structural\composite\pattern\Form\Form;
+use DesignPatterns\Structural\composite\pattern\Form\FormElement;
+use DesignPatterns\Structural\composite\pattern\Form\Input;
 
 function getProductForm(): FormElement
 {

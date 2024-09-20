@@ -1,8 +1,10 @@
 <?php
 
-namespace DesignPatterns\Structural\composite\pattern;
+namespace DesignPatterns\Structural\composite\pattern\Form;
 
-class Form extends FieldComposite
+use DesignPatterns\Structural\composite\pattern\Composite;
+
+class Form extends Composite
 {
     public function __construct(string $name, string $title, protected string $url)
     {
