@@ -1,4 +1,4 @@
 <?php
 
 require_once('vendor/autoload.php');
-require_once('./structural/composite/index.php');
+require_once('./creational/builder/index.php');
