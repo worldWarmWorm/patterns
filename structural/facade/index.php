@@ -9,4 +9,4 @@ function clientCode(): void
     var_dump($user);
 }
 
-clientCode();
+code();

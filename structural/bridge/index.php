@@ -16,16 +16,16 @@ $htmlRenderer = new HtmlRenderer();
 $jsonRenderer = new JsonRenderer();
 
 $page = new RegularPage($htmlRenderer, 'Regular page','Regular content');
-clientCode($page);
+code($page);
 
 $page->changeRenderer($jsonRenderer);
-clientCode($page);
+code($page);
 
 $accountPage = new AccountPage(
     $htmlRenderer,
     new Account('Valery', '/src/img/avatar.png', 'Developer', '@valery_good')
 );
 //
-clientCode($accountPage);
+code($accountPage);
 $accountPage->changeRenderer($jsonRenderer);
-clientCode($accountPage);
+code($accountPage);
