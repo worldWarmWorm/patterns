@@ -4,8 +4,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DesignPatterns\\Structural\\": "structural/",
-            "DesignPatterns\\Creational\\": "creational/"
+            "DesignPatterns\\Structural\\": "Structural/",
+            "DesignPatterns\\Creational\\": "Creational/",
+            "DesignPatterns\\Behavioral\\": "Behavioral/"
         }
     },
     "authors": [
