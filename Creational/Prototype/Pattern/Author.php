@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Creational\prototype\Pattern;
+namespace DesignPatterns\Creational\Prototype\Pattern;
 
 final class Author
 {
