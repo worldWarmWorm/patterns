@@ -6,7 +6,7 @@ use DesignPatterns\Creational\AbstractFactory\Pattern\Renderer\{TemplateRenderer
 use DesignPatterns\Creational\AbstractFactory\Pattern\Template\Interface\{PageTemplate, TitleTemplate};
 use DesignPatterns\Creational\AbstractFactory\Pattern\Template\Twig\{TwigPageTemplate, TwigTitleTemplate};
 
-final class TwigTemplateFactory implements TemplateFactory
+class TwigTemplateFactory implements TemplateFactory
 {
     public function createTitleTemplate(): TitleTemplate
     {
