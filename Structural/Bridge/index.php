@@ -1,11 +1,11 @@
 <?php
 
-use DesignPatterns\Structural\bridge\Pattern\Page\AccountPage;
-use DesignPatterns\Structural\bridge\Pattern\Page\Page;
-use DesignPatterns\Structural\bridge\Pattern\Page\RegularPage;
-use DesignPatterns\Structural\bridge\Pattern\Renderer\Entity\Account;
-use DesignPatterns\Structural\bridge\Pattern\Renderer\HtmlRenderer;
-use DesignPatterns\Structural\bridge\Pattern\Renderer\JsonRenderer;
+use DesignPatterns\Structural\Bridge\Pattern\Entity\Account;
+use DesignPatterns\Structural\Bridge\Pattern\Page\AccountPage;
+use DesignPatterns\Structural\Bridge\Pattern\Page\Page;
+use DesignPatterns\Structural\Bridge\Pattern\Page\RegularPage;
+use DesignPatterns\Structural\Bridge\Pattern\Renderer\HtmlRenderer;
+use DesignPatterns\Structural\Bridge\Pattern\Renderer\JsonRenderer;
 
 function clientCode(Page $page): void
 {

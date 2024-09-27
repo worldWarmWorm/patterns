@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Structural\bridge\Pattern\Page;
+namespace DesignPatterns\Structural\Bridge\Pattern\Page;
 
-use DesignPatterns\Structural\bridge\Pattern\Renderer\Renderer;
+use DesignPatterns\Structural\Bridge\Pattern\Renderer\Renderer;
 
 abstract class Page
 {
